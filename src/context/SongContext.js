@@ -13,7 +13,7 @@ const SongContextProvider = (props) => {
 
     const addSong = (title) => {
         setSongs(
-            [...songs, { title: title, id: uuidv1() }] //zamiast title: title bo wartość jest taka sama jak nazwa
+            [...songs, { title, id: uuidv1() }] //zamiast title: title bo wartość jest taka sama jak nazwa
         )
     }
 
