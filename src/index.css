@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.App {
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+nav {
+  padding: 5px;
+  border-radius: 1em 1em 0 0;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.song-list {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.song-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.song-list li {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: #ccc;
+}
+
+h1 {
+  color: #f00;
+}
+
+li:hover {
+  color: #f00;
+  cursor: context-menu;
+}
+
+nav li:hover {
+  cursor: pointer;
+}
+
+form {
+  margin-top: 2.5em;
+}
+
+input:focus,
+button:focus {
+  /* border: none; */
+  outline: none;
+}
